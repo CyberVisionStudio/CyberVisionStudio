@@ -10,50 +10,63 @@
 <p align="center">
   <img src="https://img.shields.io/badge/INTJ--T-Architect-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-VFX%20Pipeline%20Dev-00b4d8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Location-Jordan-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hardware-RTX%205060%20%7C%2032GB%20RAM-green?style=for-the-badge" />
 </p>
 
 ---
 
 ### ⚡ About Me
-I'm a professional programmer and technical artist dedicated to creating tools that empower creators. Currently, I'm mastering the integration of code into visual effects to create seamless cinematic experiences.
+I'm a professional programmer and technical artist. My workflow integrates high-end VFX industry standards with custom software development to create seamless cinematic pipelines.
 
 - 🚀 **Latest Project:** [PixelSync Porter v2.4.0](https://extensions.blender.org/add-ons/pixelsync-porter/) - Professional migration bridge for Blender.
-- ✍️ **Writing:** "Mastering Blender 5.1: Complete Modifier Guide".
-- 🔍 **Learning:** Deep diving into Houdini, Maya, and Nuke for advanced production.
-- 💻 **Hardware:** RTX 5060 (8GB) | i5-14400F | 32GB RAM.
+- ✍️ **Current Work:** "Mastering Blender 5.1: Complete Modifier Guide".
+- 🛡️ **Cyber Security:** Passionate about Offensive Security & Network Monitoring.
 
 ---
 
-### 🛠️ Languages & Tools
+### 🎨 3D, VFX & Simulation
 <table>
   <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=py" width="40" height="40" alt="Python" />
-      <br />Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=cpp" width="40" height="40" alt="C++" />
-      <br />C++
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=blender" width="40" height="40" alt="Blender" />
-      <br />Blender
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=unreal" width="40" height="40" alt="Unreal" />
-      <br />Unreal
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="Linux" />
-      <br />Linux
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" />
-      <br />VS Code
-    </td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=blender" width="40" height="40"/><br />Blender</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=unreal" width="40" height="40"/><br />Unreal</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=maya" width="40" height="40"/><br />Maya</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/houdini/houdini-original.svg" width="40" height="40"/><br />Houdini</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=substance" width="40" height="40"/><br />Substance</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/zbrush/zbrush-original.svg" width="40" height="40"/><br />ZBrush</td>
+  </tr>
+  <tr>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=ae" width="40" height="40"/><br />After Effects</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=pr" width="40" height="40"/><br />Premiere</td>
+    <td align="center" width="96"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nuke/nuke-original.svg" width="40" height="40"/><br />Nuke</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=unity" width="40" height="40"/><br />Unity</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=ps" width="40" height="40"/><br />Photoshop</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=figma" width="40" height="40"/><br />Figma</td>
   </tr>
 </table>
+
+---
+
+### 💻 Development & Engineering
+<table>
+  <tr>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=py" width="40" height="40"/><br />Python</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=cpp" width="40" height="40"/><br />C++</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=cs" width="40" height="40"/><br />C#</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=vscode" width="40" height="40"/><br />VS Code</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=pycharm" width="40" height="40"/><br />PyCharm</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="40" height="40"/><br />Linux</td>
+  </tr>
+</table>
+
+---
+
+### 🔊 Audio & Creative Tech
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ableton" width="40" height="40" alt="Ableton" />
+  <img src="https://skillicons.dev/icons?i=au" width="40" height="40" alt="Audition" />
+  <img src="https://skillicons.dev/icons?i=ai" width="40" height="40" alt="Illustrator" />
+  <img src="https://skillicons.dev/icons?i=id" width="40" height="40" alt="InDesign" />
+</p>
 
 ---
 
