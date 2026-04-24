@@ -1,55 +1,59 @@
 <div align="center">
 
-# 🌌 THE PIXEL TAMER
-### 🛡️ CYBER KING PROTOCOL v9.0
-**Technical Artist | Systems Architect | Developer**
+# ⚡ THE PIXEL TAMER ⚡
+### 🖥️ CYBER KING PROTOCOL // VERSION 9.0
+**Technical Artist • VFX Developer • Systems Architect**
 
 ---
 
-`[ STATUS: ACTIVE ]` • `[ LOCATION: ENCRYPTED ]` • `[ IDENTITY: MIKE ROBART ]`
+`[ SYSTEM: ONLINE ]` • `[ IDENTITY: MIKE ROBART ]` • `[ MISSION: DECODING REALITY ]`
 
 ---
 
 </div>
 
-### 🌑 MISSION MANIFEST
-أقوم ببناء الجسور بين الكود والفن السينمائي، حيث تصبح البكسلات لغة برمجية تعبر عن المشاعر. متخصص في هندسة خطوط الإنتاج (Pipeline Engineering) وتطوير أدوات VFX مخصصة.
+### 🌑 MISSION BRIEFING
+> "Bridging the gap between raw code and cinematic art. I don't just render pixels; I tame them through mathematics and logic."
+
+I specialize in **Pipeline Engineering** and building custom **VFX Tools**, transforming complex algorithms into visual emotions.
 
 ---
 
-### 🛠️ THE STEALTH ARMORY
-**VFX & 3D MASTERY**
-`Blender` • `Houdini` • `Maya` • `Unreal Engine` • `Nuke` • `ZBrush` • `Gaea`
-
-**SYSTEMS & ARCHITECTURE**
-`Python` • `C++` • `C#` • `Linux` • `Git` • `Pipeline Dev`
-
-**CREATIVE ENGINE**
-`After Effects` • `Premiere` • `Photoshop` • `Figma` • `Ableton Live`
-
----
-
-### 📊 SYSTEM METRICS
+### 🛡️ THE STEalth ARMORY
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff" alt="Stats" />
+  <img src="https://skillicons.dev/icons?i=blender,houdini,maya,unreal,zbrush,nuke,py,cpp,cs,linux,git,ae,ps,figma&theme=dark" alt="Armory" />
+</p>
+
+**VFX & 3D MASTERY**
+`Blender` • `Houdini` • `Maya` • `Unreal Engine` • `Nuke 16` • `ZBrush` • `Gaea`
+
+**SYSTEMS & CODE**
+`Python` • `C++` • `C#` • `Linux (Kali/Ubuntu)` • `Git` • `Pipeline Dev`
+
+---
+
+### 📊 NEURAL INTERFACE STATS
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberVisionStudio&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CyberVisionStudio&theme=dark&hide_border=true&background=000000&sideNums=ffffff&stroke=ffffff&fire=ffffff" />
 </p>
 
 ---
 
 ### 🚀 ACTIVE DEPLOYMENTS
-* **[PixelSync Porter](https://extensions.blender.org/approval-queue/pixelsync-porter/):** أداة متقدمة لربط سير العمل داخل Blender.
-* **CineCtrl Pro:** نظام تحكم سينمائي متكامل.
-* **Ultimate Shader Tool:** مكتبة تظليل برمجية متطورة.
+* **[PixelSync Porter](https://extensions.blender.org/approval-queue/pixelsync-porter/):** Advanced Blender integration tool.
+* **CineCtrl Pro:** Professional cinematic control system.
+* **Ultimate Shader Tool:** High-end shading library for technical artists.
+* **Modifiers Mastery:** Interactive technical guide for Blender 5.1.
 
 ---
 
 ### 📡 CONNECT TO THE GRID
-* **Discord:** `[ ENCRYPTED ]`
-* **Mission Control:** [Blender Extensions Portal](https://extensions.blender.org/author/CyberVisionStudio/)
+* **Discord:** `[ CLASSIFIED ]`
+* **Portfolio:** [Blender Extensions](https://extensions.blender.org/author/CyberVisionStudio/)
 
 ---
 
@@ -57,5 +61,7 @@
 
 `// ALL PIXELS CERTIFIED BY THE PIXEL TAMER //`
 `■ □ ■ □ ■ □ ■ □ ■ □ ■`
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=100&section=footer" width="100%" />
 
 </div>
