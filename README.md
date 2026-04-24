@@ -6,12 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=500&lines=Bridging+Code+and+Cinematic+Art;Building+the+Future+of+VFX+Pipelines;Mastering+the+Digital+Architecture" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Personality-INTJ--T-red?style=for-the-badge&logo=psychology" />
-  <img src="https://img.shields.io/badge/Focus-VFX%20Automation-00b4d8?style=for-the-badge&logo=unrealengine" />
-  <img src="https://img.shields.io/badge/Hardware-RTX%205060%20%7C%2032GB-green?style=for-the-badge&logo=nvidia" />
-</p>
-
 ---
 
 ### ⚡ Technical Briefing
@@ -19,11 +13,11 @@ I am a **Technical Artist & Developer** who views code as the ultimate brush. My
 
 - 🛠️ **Lead Dev:** [PixelSync Porter v2.4.0](https://extensions.blender.org/add-ons/pixelsync-porter/)
 - 📚 **Authoring:** "Mastering Blender 5.1: Complete Modifier Guide"
-- 🎯 **Objective:** Total integration between procedural generation and cinematic storytelling.
+- 🛡️ **Interests:** Offensive Security & Network Monitoring.
 
 ---
 
-### 🎨 The VFX Armory (Tools & Mastery)
+### 🎨 The VFX Armory
 
 #### 🪐 3D & Digital Environments
 | Tool | Specialization | Tool | Specialization |
@@ -55,7 +49,7 @@ I am a **Technical Artist & Developer** who views code as the ultimate brush. My
 
 ---
 
-### 📊 System Status (GitHub Insights)
+### 📊 GitHub Insights
 <p align="center">
   <img width="490" src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=tokyonight&hide_border=true&title_color=00b4d8&text_color=ffffff&icon_color=00b4d8" />
   <br/>
@@ -64,7 +58,7 @@ I am a **Technical Artist & Developer** who views code as the ultimate brush. My
 
 ---
 
-### 💬 Open Communication Lines
+### 💬 Connect
 <div align="left">
   <a href="https://discord.com/users/1323643345087762442">
     <img src="https://img.shields.io/badge/Discord-Direct%20Link-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
