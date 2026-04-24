@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=glitch&color=000000&height=300&section=header&text=THE%20PIXEL%20TAMER&fontSize=85&fontColor=ffffff&stroke=ffffff&strokeWidth=2&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=glitch&color=000000&height=320&section=header&text=THE%20PIXEL%20TAMER&fontSize=90&fontColor=ffffff&stroke=ffffff&strokeWidth=2&animation=twinkling" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=26&duration=2000&pause=500&color=FFFFFF&center=true&vCenter=true&width=900&lines=INITIATING+CYBER+KING+PROTOCOL+v10.0...;DECODING+CINEMATIC+PIPELINES...;MORPHING+PIXELS+INTO+LOGIC...;ACCESSING+GOD+MODE...;SYSTEM+STATUS:+DOMINATING" />
+<img src="https://readme-typing-svg.demolab.com?font=Silkscreen&size=28&duration=2000&pause=500&color=FFFFFF&center=true&vCenter=true&width=1000&lines=LOADING+CYBER+KING+OS+v10.1...;DECODING+VFX+PIPELINES...;TAMING+PIXELS+VIA+PYTHON...;SYNCHRONIZING+NUKE+16+NODES...;GOD+MODE+ENABLED" />
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/white.png" width="100%">
 </p>
 
 <pre>
-██████╗██╗   ██╗██████╗ ███████╗██████╗     ██╗  ██╗██╗███╗   ██╗ ██████╗ 
+ ██████╗██╗   ██╗██████╗ ███████╗██████╗     ██╗  ██╗██╗███╗   ██╗ ██████╗ 
 ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗    ██║ ██╔╝██║████╗  ██║██╔════╝ 
 ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝    █████╔╝ ██║██╔██╗ ██║██║  ███╗
 ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗    ██╔═██╗ ██║██║╚██╗██║██║   ██║
@@ -21,64 +21,84 @@
 
 ---
 
-### 🌑 [ROOT_ACCESS: CORE_LOGS]
+### 🌑 [SYSTEM_CORE: LOG_FILES]
 
-#### 🧬 SYSTEM IDENTITY
-- **Operator:** Mike Robart (Cyber King / The Pixel Tamer)
-- **Class:** Technical Artist & Developer
-- **Personality:** INTJ-T Architect (Execution-Focused)
-- **Goal:** Cinematic Generalist Mastery by 2030
-
----
-
-### 🛡️ [THE STEALTH ARMORY: ARSENAL_DATAGRID]
-*This table contains the full technical stack required for high-end cinematic production.*
-
-| COMPONENT | SUBSYSTEM | POWER_LEVEL | STATUS |
-| :--- | :--- | :--- | :--- |
-| **VFX ENGINE 01** | Blender (Core Mastery) | `[██████████] 100%` | `STABLE` |
-| **VFX ENGINE 02** | Houdini (Procedural) | `[████████░░] 80%` | `LEARNING` |
-| **VFX ENGINE 03** | Maya (Rigging/Anim) | `[███████░░░] 70%` | `LEARNING` |
-| **REALTIME** | Unreal Engine 5 | `[████████░░] 80%` | `ACTIVE` |
-| **COMPOSITING** | Nuke 16 / After Effects | `[█████████░] 90%` | `STABLE` |
-| **TRACKING** | 3DEqualizer / SynthEyes | `[████████░░] 80%` | `ACTIVE` |
-| **SYSTEMS** | Linux / Offensive Security | `[█████████░] 90%` | `ACTIVE` |
-| **CORE_CODE** | Python / C++ / C# | `[█████████░] 95%` | `CRITICAL` |
+#### 🧬 IDENTITY_RECORDS
+- **OPERATOR:** Mike Robart
+- **ALIASES:** Cyber King / The Pixel Tamer
+- **PROTOCOL:** Cinematic Generalist 2030
+- **COGNITIVE_TYPE:** INTJ-T (Architect Mode)
 
 ---
 
-### 📊 [NEURAL_LINK: LIVE_DIAGNOSTICS]
+### 🛡️ [THE STEALTH ARMORY: MULTI-MOTION GRID]
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=dark&hide_border=true&bg_color=000&title_color=fff&text_color=aaa&icon_color=fff" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberVisionStudio&layout=compact&theme=dark&hide_border=true&bg_color=000&title_color=fff&text_color=aaa" width="48%" />
+  <img src="https://skillicons.dev/icons?i=blender,houdini,maya,unreal,zbrush,nuke,py,cpp,cs,linux,git,ae,ps,figma&theme=dark&perline=7" />
+</div>
+
+---
+
+### 📊 [NEURAL_DIAGNOSTICS: REAL-TIME FEED]
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=dark&hide_border=true&bg_color=000&title_color=fff&text_color=aaa&icon_color=fff" width="400" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberVisionStudio&layout=compact&theme=dark&hide_border=true&bg_color=000&title_color=fff&text_color=aaa" width="350" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CyberVisionStudio&theme=dark&hide_border=true&stroke=ffffff&background=000&fire=ffffff&ring=ffffff" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CyberVisionStudio&theme=dark&hide_border=true&stroke=ffffff&background=000&fire=ffffff&ring=ffffff&currStreakLabel=ffffff" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CyberVisionStudio&theme=github-dark&bg_color=000&color=fff&line=fff&point=fff&area=true&hide_border=true" width="100%" />
 </p>
 
 ---
 
-### 🚀 [ACTIVE_DEPLOYMENTS: OPERATION_PIXEL]
+### 🚀 [DEPLOYMENT_STATUS: ACTIVE_MISSIONS]
 
-* **[PixelSync Porter](https://extensions.blender.org/approval-queue/pixelsync-porter/):** Finalizing the ultimate Blender pipeline bridge.
-* **CineCtrl Pro v9.0:** Orchestrating complex camera movements via code.
-* **Ultimate Shader Tool:** Pushing the limits of GLSL/HLSL in custom shaders.
-* **Modifiers Mastery:** Authoring the definitive interactive guide for Blender 5.1.
+* 📡 **[PixelSync Porter](https://extensions.blender.org/approval-queue/pixelsync-porter/):** BLENDER EXTENSION // STATUS: IN_REVIEW
+* 🎬 **CineCtrl Pro v10.0:** CAMERA AUTOMATION // STATUS: DEPLOYED
+* 📖 **Modifiers Mastery:** TECHNICAL AUTHORING // STATUS: WRITING
 
 ---
 
-### 🌌 [DATA_STREAM_SIMULATION]
-*(هذا الجزء يضيف عمقاً برمجياً ضخماً للملف ليشبه مصفوفات البيانات)*
+### 🌌 [DATA_FLOW_REPLICATION]
+*(هذا القسم يضيف مئات الأسطر من محاكاة البيانات لإعطاء مظهر الكود اللانهائي)*
 
-```text
-[LOG_START: 2026-04-24]
-> Connection established with VFX_SERVER_01
-> Mapping vectors to screen space... DONE
-> Taming pixels... 100%
-> Rewriting pipeline for Nuke 16... ACTIVE
-> Synchronizing with Cyber King origins...
-[ENCRYPTED_DATA_BLOCK]
-01001101 01101001 01101011 01100101 00100000 01010010 
-01101111 01100010 01100001 01110010 01110100 
-[/ENCRYPTED_DATA_BLOCK]
+| VECTOR_ID | SHADER_PATH | LATENCY | STATUS |
+| :--- | :--- | :--- | :--- |
+| `0x7A1` | `PIXEL_DISSOLVE_V4` | `0.002ms` | `RUNNING` |
+| `0x8C2` | `CINEMATIC_GRAIN_V9` | `0.005ms` | `STABLE` |
+| `0x9E3` | `MORPH_ENGINE_V1` | `0.001ms` | `ACTIVE` |
+| `0xA44` | `HOUDINI_PIPELINE_X` | `0.012ms` | `SYNCING` |
+| `0xB15` | `NUKE_COMP_STREAMS` | `0.008ms` | `PROCESSING` |
+| `0xC72` | `LINUX_KERNAL_SEC` | `0.001ms` | `SECURE` |
+
+---
+
+### 📡 [CONNECTION_GRID]
+<div align="center">
+  <a href="https://discord.com/users/1323643345087762442">
+    <img src="https://img.shields.io/badge/ENCRYPTED_COMMS-DISCORD-white?style=for-the-badge&logo=discord&logoColor=black" />
+  </a>
+  <a href="https://extensions.blender.org/author/CyberVisionStudio/">
+    <img src="https://img.shields.io/badge/MISSION_CONTROL-BLENDER-white?style=for-the-badge&logo=blender&logoColor=black" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=180&section=footer&text=THE%20PIXEL%20TAMER&fontSize=35&fontColor=000&animation=fadeIn" width="100%" />
+  
+  `// ARCHITECTED BY MIKE ROBART // ALL PIXELS CONTROLLED //`
+  `■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■`
+</div>****
