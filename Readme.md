@@ -1,4 +1,4 @@
-<div align="center">
+**<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=glitch&color=000000&height=320&section=header&text=THE%20PIXEL%20TAMER&fontSize=90&fontColor=ffffff&stroke=ffffff&strokeWidth=2&animation=twinkling" width="100%" />
 
@@ -115,3 +115,4 @@
   `// ARCHITECTED BY MIKE ROBART // ALL PIXELS CONTROLLED //`
   `■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■ □ ■`
 </div>
+**
