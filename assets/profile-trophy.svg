@@ -1,0 +1,304 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .lbl  { font-family:'Courier New',monospace; font-size:10px; fill:#00b4d8; letter-spacing:2px; }
+      .sub2 { font-family:'Courier New',monospace; font-size:8px;  fill:#00b4d870; letter-spacing:1px; }
+      .hdr  { font-family:'Courier New',monospace; font-size:10px; fill:#00b4d8; letter-spacing:5px; }
+      .rank { font-family:'Courier New',monospace; font-size:9px; font-weight:bold; letter-spacing:2px; }
+      .score{ font-family:'Courier New',monospace; font-size:8px; fill:#00b4d870; }
+      .scan { fill:none; stroke:#00b4d820; stroke-width:0.4; }
+
+      .outer-border {
+        fill:none; stroke:#00b4d8; stroke-width:1;
+        animation: borderGlow 3s ease-in-out infinite;
+      }
+      @keyframes borderGlow {
+        0%,100%{ stroke-opacity:0.2; }
+        50%    { stroke-opacity:0.8; }
+      }
+
+      .divline {
+        stroke:#00b4d8; stroke-width:0.5; stroke-dasharray:6 10;
+        animation: dashMove 4s linear infinite;
+      }
+      @keyframes dashMove { to { stroke-dashoffset:-100; } }
+
+      .card-top {
+        stroke:#00b4d8; stroke-width:1.5; stroke-linecap:square;
+        animation: toplineGlow 4s ease-in-out infinite;
+      }
+      @keyframes toplineGlow {
+        0%,100%{ stroke-opacity:0.3; }
+        50%    { stroke-opacity:1; }
+      }
+
+      .ring-outer {
+        fill:none; stroke:#00b4d815; stroke-width:1;
+        animation: spinSlow 30s linear infinite;
+        transform-origin: center;
+      }
+      .ring-mid {
+        fill:none; stroke:#00b4d825; stroke-width:0.5; stroke-dasharray:3 7;
+        animation: spinSlow 20s linear infinite reverse;
+        transform-origin: center;
+      }
+      @keyframes spinSlow { to { transform:rotate(360deg); } }
+
+      .bar-bg { fill:#00b4d810; }
+
+      .corner {
+        fill:none; stroke:#00b4d8; stroke-width:1.5; stroke-linecap:square;
+        animation: cornerGlow 3s ease-in-out infinite;
+      }
+      @keyframes cornerGlow {
+        0%,100%{ stroke-opacity:0.4; }
+        50%    { stroke-opacity:1; }
+      }
+
+      .sweep {
+        fill:none; stroke:#00b4d8; stroke-width:1; opacity:0;
+        animation: sweep 6s linear infinite;
+      }
+      @keyframes sweep {
+        0%   { transform:translateY(0);   opacity:0; }
+        5%   { opacity:0.12; }
+        95%  { opacity:0.06; }
+        100% { transform:translateY(220px); opacity:0; }
+      }
+
+      .trophy-pulse { animation: tpulse 3s ease-in-out infinite; }
+      @keyframes tpulse {
+        0%,100%{ opacity:0.85; }
+        50%    { opacity:1; }
+      }
+
+      .rank-bg-ss { fill:#00b4d8; animation: rankFlash 2s ease-in-out infinite; }
+      .rank-bg-s  { fill:#00b4d8; animation: rankFlash 2.5s ease-in-out infinite 0.3s; }
+      .rank-bg-a  { fill:#00b4d8; animation: rankFlash 3s ease-in-out infinite 0.6s; }
+      .rank-bg-b  { fill:#00b4d8; animation: rankFlash 3.5s ease-in-out infinite 0.9s; }
+      @keyframes rankFlash {
+        0%,100%{ fill-opacity:0.15; }
+        50%    { fill-opacity:0.35; }
+      }
+
+      .glitch { animation: glitch 8s infinite; }
+      @keyframes glitch {
+        0%,94%,100% { opacity:1; transform:translate(0,0); }
+        95%         { opacity:0.8; transform:translate(-2px,0); }
+        96%         { opacity:1;  transform:translate(2px,0); fill:#00ffff; }
+        97%         { opacity:0.9; transform:translate(0,0); fill:#00b4d8; }
+      }
+
+      .tick { stroke:#30363d; stroke-width:1; animation: tickFade 2s ease-in-out infinite alternate; }
+      @keyframes tickFade {
+        from{ stroke-opacity:0.3; }
+        to  { stroke-opacity:0.8; }
+      }
+
+      .p { fill:#00b4d8; }
+      .p1 { animation: float1 6s ease-in-out infinite; }
+      .p2 { animation: float2 8s ease-in-out infinite; }
+      .p3 { animation: float3 5s ease-in-out infinite; }
+      @keyframes float1 {
+        0%,100%{ transform:translate(0,0); opacity:0.5; }
+        50%    { transform:translate(6px,-12px); opacity:1; }
+      }
+      @keyframes float2 {
+        0%,100%{ transform:translate(0,0); opacity:0.4; }
+        50%    { transform:translate(-8px,-16px); opacity:0.9; }
+      }
+      @keyframes float3 {
+        0%,100%{ transform:translate(0,0); opacity:0.6; }
+        50%    { transform:translate(4px,-10px); opacity:1; }
+      }
+    </style>
+
+    <pattern id="sp3" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <line class="scan" x1="0" y1="0" x2="900" y2="0"/>
+    </pattern>
+
+    <filter id="glow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="strongGlow3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="220" fill="#000"/>
+  <rect width="900" height="220" fill="url(#sp3)"/>
+
+  <!-- SWEEP -->
+  <line class="sweep" x1="0" y1="0" x2="900" y2="0"/>
+
+  <!-- OUTER BORDER -->
+  <rect x="1" y="1" width="898" height="218" class="outer-border" rx="2"/>
+  <rect x="8" y="8" width="884" height="204" fill="none" stroke="#00b4d830" stroke-width="0.5"/>
+
+  <!-- CORNER BRACKETS -->
+  <path d="M18 45 L18 18 L65 18" class="corner"/>
+  <path d="M882 45 L882 18 L835 18" class="corner" style="animation-delay:0.5s"/>
+  <path d="M18 175 L18 202 L65 202" class="corner" style="animation-delay:1s"/>
+  <path d="M882 175 L882 202 L835 202" class="corner" style="animation-delay:1.5s"/>
+
+  <!-- PARTICLES -->
+  <circle class="p p1" cx="55"  cy="185" r="2"/>
+  <circle class="p p2" cx="845" cy="175" r="1.5"/>
+  <circle class="p p3" cx="450" cy="12"  r="2"/>
+
+  <!-- SECTION HEADER -->
+  <line class="divline" x1="20"  y1="28" x2="270" y2="28"/>
+  <text class="hdr glitch" x="450" y="33" text-anchor="middle" filter="url(#glow3)">◈  ACHIEVEMENT MATRIX  ◈</text>
+  <line class="divline" x1="630" y1="28" x2="880" y2="28"/>
+
+  <!-- TICK MARKS -->
+  <line class="tick" x1="18" y1="80"  x2="26" y2="80"  style="animation-delay:0s"/>
+  <line class="tick" x1="18" y1="130" x2="26" y2="130" style="animation-delay:0.4s"/>
+  <line class="tick" x1="18" y1="175" x2="26" y2="175" style="animation-delay:0.8s"/>
+  <line class="tick" x1="882" y1="80"  x2="874" y2="80"  style="animation-delay:0.2s"/>
+  <line class="tick" x1="882" y1="130" x2="874" y2="130" style="animation-delay:0.6s"/>
+  <line class="tick" x1="882" y1="175" x2="874" y2="175" style="animation-delay:1s"/>
+
+  <!-- ══ TROPHY 1 — Commits SS ══ x=35 -->
+  <g transform="translate(35,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:25s"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19"/>
+    <text class="trophy-pulse" x="59" y="63" text-anchor="middle" font-size="30" filter="url(#strongGlow3)">🏆</text>
+    <rect x="15" y="76" width="88" height="16" rx="2" class="rank-bg-ss"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">SS-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">COMMITS</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Total code pushes</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="98" dur="2s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">██████ 100%</text>
+  </g>
+
+  <!-- ══ TROPHY 2 — MultiLanguage S ══ x=168 -->
+  <g transform="translate(168,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0" style="animation-delay:0.5s"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:22s;animation-direction:reverse"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19" style="animation-duration:15s"/>
+    <polygon points="59,34 67,42 59,50 51,42" fill="none" stroke="#00b4d8" stroke-width="1.2" filter="url(#glow3)">
+      <animateTransform attributeName="transform" type="rotate" from="0 59 42" to="360 59 42" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+    <circle cx="59" cy="42" r="3" fill="#00b4d8">
+      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="22" y="76" width="74" height="16" rx="2" class="rank-bg-s"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">S-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">MULTILANG</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Py · C++ · C# · Bash</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="93" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="93" dur="2s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">█████░ 95%</text>
+  </g>
+
+  <!-- ══ TROPHY 3 — Stars S ══ x=301 -->
+  <g transform="translate(301,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0" style="animation-delay:1s"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:35s"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19" style="animation-duration:18s;animation-direction:reverse"/>
+    <polygon points="59,32 62,41 72,41 64,47 67,57 59,51 51,57 54,47 46,41 56,41" fill="none" stroke="#00b4d8" stroke-width="1" filter="url(#glow3)">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </polygon>
+    <rect x="22" y="76" width="74" height="16" rx="2" class="rank-bg-s"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">S-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">STARS</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Starred repos</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="88" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="88" dur="2s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">█████░ 90%</text>
+  </g>
+
+  <!-- ══ TROPHY 4 — Experience S ══ x=434 -->
+  <g transform="translate(434,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0" style="animation-delay:1.5s"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:18s;animation-direction:reverse"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19"/>
+    <circle cx="59" cy="42" r="11" fill="none" stroke="#00b4d8" stroke-width="1" filter="url(#glow3)">
+      <animate attributeName="r" values="9;13;9" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="59" y1="42" x2="59" y2="33" stroke="#00b4d8" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" from="0 59 42" to="360 59 42" dur="6s" repeatCount="indefinite"/>
+    </line>
+    <circle cx="59" cy="42" r="2" fill="#00b4d8"/>
+    <rect x="22" y="76" width="74" height="16" rx="2" class="rank-bg-s"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">S-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">EXPERIENCE</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Active dev years</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="85" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="85" dur="2s" begin="0.9s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">████░░ 87%</text>
+  </g>
+
+  <!-- ══ TROPHY 5 — Repositories A ══ x=567 -->
+  <g transform="translate(567,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0" style="animation-delay:2s"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:28s"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19" style="animation-duration:12s;animation-direction:reverse"/>
+    <rect x="47" y="36" width="24" height="16" rx="1" fill="none" stroke="#00b4d8" stroke-width="1" filter="url(#glow3)">
+      <animate attributeName="transform" type="rotate" calcMode="discrete" values="0 59 44;90 59 44;180 59 44;270 59 44" dur="4s" repeatCount="indefinite" additive="sum"/>
+    </rect>
+    <rect x="22" y="76" width="74" height="16" rx="2" class="rank-bg-a"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">A-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">REPOS</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Public vaults</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="79" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="79" dur="2s" begin="1.2s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">████░░ 80%</text>
+  </g>
+
+  <!-- ══ TROPHY 6 — Followers B ══ x=700 -->
+  <g transform="translate(700,45)">
+    <rect width="118" height="155" fill="#00b4d808" rx="2"/>
+    <line class="card-top" x1="0" y1="0" x2="118" y2="0" style="animation-delay:2.5s"/>
+    <circle class="ring-outer" cx="59" cy="48" r="26" style="animation-duration:40s"/>
+    <circle class="ring-mid"   cx="59" cy="48" r="19"/>
+    <polyline points="39,48 44,36 49,42 54,32 59,38 64,28 69,34 74,40 79,44" fill="none" stroke="#00b4d8" stroke-width="1.2" filter="url(#glow3)">
+      <animate attributeName="points"
+        values="39,48 44,36 49,42 54,32 59,38 64,28 69,34 74,40 79,44;
+                39,44 44,40 49,32 54,38 59,30 64,36 69,42 74,34 79,48;
+                39,48 44,36 49,42 54,32 59,38 64,28 69,34 74,40 79,44"
+        dur="3s" repeatCount="indefinite"/>
+    </polyline>
+    <rect x="22" y="76" width="74" height="16" rx="2" class="rank-bg-b"/>
+    <text class="rank" x="59" y="88" text-anchor="middle" fill="#00b4d8">B-RANK</text>
+    <text class="lbl" x="59" y="108" text-anchor="middle">FOLLOWERS</text>
+    <text class="sub2" x="59" y="120" text-anchor="middle">Community nodes</text>
+    <line x1="10" y1="128" x2="108" y2="128" stroke="#00b4d830" stroke-width="0.5"/>
+    <rect x="10" y="134" width="98" height="4" rx="2" class="bar-bg"/>
+    <rect x="10" y="134" width="72" height="4" rx="2" fill="#00b4d8">
+      <animate attributeName="width" from="0" to="72" dur="2s" begin="1.5s" fill="freeze"/>
+    </rect>
+    <text class="score" x="59" y="148" text-anchor="middle">███░░░ 74%</text>
+  </g>
+
+  <!-- BOTTOM WATERMARK -->
+  <text class="hdr" x="450" y="213" text-anchor="middle" style="fill-opacity:0.25; letter-spacing:3px">◈ CYBERVISIONSTUDIO · PIXEL TAMER v3.0 ◈</text>
+</svg>
