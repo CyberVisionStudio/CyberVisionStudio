@@ -134,11 +134,6 @@ class PixelSyncPorter:
 ![Quote](./assets/quote.svg)
 
 ---
-
 <div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=CyberVisionStudio&color=00b4d8&style=for-the-badge&label=SYSTEM+ACCESS" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:000d1a,100:003049&height=100&section=footer&text=%E2%97%88%20PIXEL%20TAMER%20v3.0%20%E2%97%88&fontSize=14&fontColor=00b4d8&fontAlignY=70&animation=fadeIn" />
-
+  <img src="https://komarev.com/ghpvc/?username=CyberVisionStudio&color=00b4d8&style=for-the-badge&label=SYSTEM+ACCESS" />
 </div>
