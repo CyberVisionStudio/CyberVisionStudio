@@ -1,0 +1,299 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;display=swap');
+
+      .bg { fill: #000; }
+
+      /* grid lines */
+      .grid { stroke: #00b4d820; stroke-width: 0.5; }
+
+      /* title glitch */
+      .title {
+        font-family: 'Orbitron', 'Courier New', monospace;
+        font-size: 62px;
+        font-weight: 900;
+        fill: #fff;
+        letter-spacing: 4px;
+      }
+      .title-cyan { fill: #00b4d8; }
+
+      .glitch1 {
+        animation: glitch1 3s infinite;
+        fill: #00ffff;
+        opacity: 0;
+      }
+      .glitch2 {
+        animation: glitch2 3s infinite;
+        fill: #ff006e;
+        opacity: 0;
+      }
+
+      @keyframes glitch1 {
+        0%,90%,100%   { opacity:0; transform:translate(0,0); }
+        92%           { opacity:0.7; transform:translate(-4px,2px); }
+        94%           { opacity:0; }
+        96%           { opacity:0.5; transform:translate(3px,-1px); }
+        98%           { opacity:0; }
+      }
+      @keyframes glitch2 {
+        0%,88%,100%   { opacity:0; transform:translate(0,0); }
+        90%           { opacity:0.6; transform:translate(4px,-2px); }
+        92%           { opacity:0; }
+        95%           { opacity:0.4; transform:translate(-3px,1px); }
+        97%           { opacity:0; }
+      }
+
+      /* subtitle */
+      .sub {
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        fill: #00b4d8;
+        letter-spacing: 8px;
+        animation: fadeInUp 2s ease forwards;
+        opacity: 0;
+      }
+      @keyframes fadeInUp {
+        from { opacity:0; transform:translateY(12px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
+
+      /* scanlines */
+      .scan {
+        fill: none;
+        stroke: #00b4d8;
+        stroke-width: 0.3;
+        opacity: 0.07;
+      }
+
+      /* corner brackets */
+      .bracket {
+        fill: none;
+        stroke: #00b4d8;
+        stroke-width: 1.5;
+        stroke-linecap: square;
+        animation: bracketPulse 4s ease-in-out infinite;
+      }
+      @keyframes bracketPulse {
+        0%,100% { opacity:0.4; }
+        50%     { opacity:1; }
+      }
+
+      /* particles */
+      .p { fill:#00b4d8; }
+      .p1 { animation: float1 6s ease-in-out infinite; }
+      .p2 { animation: float2 8s ease-in-out infinite; }
+      .p3 { animation: float3 5s ease-in-out infinite; }
+      .p4 { animation: float4 7s ease-in-out infinite; }
+      .p5 { animation: float5 9s ease-in-out infinite; }
+      .p6 { animation: float1 4s ease-in-out infinite reverse; }
+      .p7 { animation: float3 6s ease-in-out infinite reverse; }
+      .p8 { animation: float2 5s ease-in-out infinite 1s; }
+      .p9 { animation: float4 8s ease-in-out infinite 2s; }
+      .p10{ animation: float5 7s ease-in-out infinite 0.5s; }
+      .p11{ animation: float1 5s ease-in-out infinite 3s; }
+      .p12{ animation: float3 9s ease-in-out infinite 1.5s; }
+
+      @keyframes float1 {
+        0%,100%{ transform:translate(0,0) scale(1); opacity:0.6; }
+        50%    { transform:translate(8px,-15px) scale(1.4); opacity:1; }
+      }
+      @keyframes float2 {
+        0%,100%{ transform:translate(0,0) scale(0.8); opacity:0.4; }
+        50%    { transform:translate(-10px,-20px) scale(1.2); opacity:0.9; }
+      }
+      @keyframes float3 {
+        0%,100%{ transform:translate(0,0); opacity:0.5; }
+        33%    { transform:translate(12px,-8px); opacity:1; }
+        66%    { transform:translate(-5px,-18px); opacity:0.7; }
+      }
+      @keyframes float4 {
+        0%,100%{ transform:translate(0,0) scale(1); opacity:0.3; }
+        50%    { transform:translate(-8px,-12px) scale(1.6); opacity:0.8; }
+      }
+      @keyframes float5 {
+        0%,100%{ transform:translate(0,0); opacity:0.7; }
+        40%    { transform:translate(6px,-22px); opacity:0.3; }
+        80%    { transform:translate(-4px,-10px); opacity:1; }
+      }
+
+      /* horizontal line sweep */
+      .sweep {
+        stroke: #00b4d8;
+        stroke-width: 1;
+        opacity: 0;
+        animation: sweepLine 4s ease-in-out infinite;
+      }
+      @keyframes sweepLine {
+        0%   { opacity:0; transform:translateY(0); }
+        10%  { opacity:0.6; }
+        90%  { opacity:0.6; }
+        100% { opacity:0; transform:translateY(300px); }
+      }
+
+      /* status dot */
+      .dot {
+        fill:#00b4d8;
+        animation: dotPulse 2s ease-in-out infinite;
+      }
+      @keyframes dotPulse {
+        0%,100%{ r:3; opacity:1; }
+        50%    { r:5; opacity:0.4; }
+      }
+
+      /* typing cursor */
+      .cursor {
+        fill:#00b4d8;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%,100%{ opacity:1; }
+        50%    { opacity:0; }
+      }
+
+      /* border glow pulse */
+      .border-glow {
+        fill:none;
+        stroke:#00b4d8;
+        stroke-width:1;
+        animation: borderGlow 3s ease-in-out infinite;
+      }
+      @keyframes borderGlow {
+        0%,100%{ stroke-opacity:0.2; }
+        50%    { stroke-opacity:0.8; }
+      }
+
+      /* corner decorations spin */
+      .corner-deco {
+        fill:none;
+        stroke:#00b4d840;
+        stroke-width:0.5;
+        animation: spin 20s linear infinite;
+        transform-origin: 450px 150px;
+      }
+
+      /* data lines left/right */
+      .dataline {
+        fill:none;
+        stroke:#00b4d8;
+        stroke-width:0.5;
+        stroke-dasharray:4 6;
+        animation: dash 3s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset:-100; }
+      }
+    </style>
+
+    <!-- scanline pattern -->
+    <pattern id="scanPat" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <line class="scan" x1="0" y1="0" x2="900" y2="0"/>
+    </pattern>
+
+    <!-- grid pattern -->
+    <pattern id="gridPat" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0L0 0 0 50" class="grid" fill="none"/>
+    </pattern>
+
+    <!-- glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="strongGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- BG -->
+  <rect width="900" height="300" class="bg"/>
+
+  <!-- Grid -->
+  <rect width="900" height="300" fill="url(#gridPat)"/>
+
+  <!-- Scanlines -->
+  <rect width="900" height="300" fill="url(#scanPat)"/>
+
+  <!-- Sweep line -->
+  <line class="sweep" x1="0" y1="0" x2="900" y2="0"/>
+
+  <!-- Border glow -->
+  <rect x="1" y="1" width="898" height="298" class="border-glow" rx="2"/>
+
+  <!-- Inner border -->
+  <rect x="10" y="10" width="880" height="280" fill="none" stroke="#00b4d830" stroke-width="0.5"/>
+
+  <!-- Corner brackets TL -->
+  <path d="M20 50 L20 20 L70 20" class="bracket"/>
+  <!-- Corner brackets TR -->
+  <path d="M880 50 L880 20 L830 20" class="bracket"/>
+  <!-- Corner brackets BL -->
+  <path d="M20 250 L20 280 L70 280" class="bracket"/>
+  <!-- Corner brackets BR -->
+  <path d="M880 250 L880 280 L830 280" class="bracket"/>
+
+  <!-- Data lines left -->
+  <line class="dataline" x1="30" y1="20" x2="30" y2="280" style="animation-delay:0s"/>
+  <line class="dataline" x1="40" y1="20" x2="40" y2="280" style="animation-delay:0.5s"/>
+
+  <!-- Data lines right -->
+  <line class="dataline" x1="860" y1="20" x2="860" y2="280" style="animation-delay:1s"/>
+  <line class="dataline" x1="870" y1="20" x2="870" y2="280" style="animation-delay:1.5s"/>
+
+  <!-- Particles -->
+  <circle class="p p1"  cx="60"  cy="240" r="2"/>
+  <circle class="p p2"  cx="120" cy="200" r="1.5"/>
+  <circle class="p p3"  cx="180" cy="260" r="2.5"/>
+  <circle class="p p4"  cx="780" cy="220" r="2"/>
+  <circle class="p p5"  cx="840" cy="190" r="1.5"/>
+  <circle class="p p6"  cx="820" cy="250" r="3"/>
+  <circle class="p p7"  cx="100" cy="60"  r="1.5"/>
+  <circle class="p p8"  cx="800" cy="70"  r="2"/>
+  <circle class="p p9"  cx="200" cy="80"  r="1"/>
+  <circle class="p p10" cx="700" cy="65"  r="2.5"/>
+  <circle class="p p11" cx="310" cy="250" r="1.5"/>
+  <circle class="p p12" cx="600" cy="240" r="2"/>
+
+  <!-- Diamond accents -->
+  <polygon points="450,22 455,28 450,34 445,28" fill="#00b4d8" opacity="0.6" style="animation:dotPulse 3s infinite"/>
+  <polygon points="150,150 154,155 150,160 146,155" fill="#00b4d840" style="animation:dotPulse 4s infinite 1s"/>
+  <polygon points="750,150 754,155 750,160 746,155" fill="#00b4d840" style="animation:dotPulse 4s infinite 2s"/>
+
+  <!-- MAIN TITLE — glitch layers -->
+  <g filter="url(#strongGlow)">
+    <!-- Glitch shadow 1 -->
+    <text class="title glitch1" x="450" y="148" text-anchor="middle">THE PIXEL TAMER</text>
+    <!-- Glitch shadow 2 -->
+    <text class="title glitch2" x="450" y="148" text-anchor="middle">THE PIXEL TAMER</text>
+    <!-- Main text -->
+    <text class="title" x="450" y="148" text-anchor="middle">
+      <tspan fill="#ffffff">THE </tspan><tspan class="title-cyan">PIXEL</tspan><tspan fill="#ffffff"> TAMER</tspan>
+    </text>
+  </g>
+
+  <!-- Underline animated -->
+  <line x1="200" y1="162" x2="700" y2="162" stroke="#00b4d8" stroke-width="0.8" opacity="0.5">
+    <animate attributeName="x1" values="450;200;450" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="450;700;450" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Subtitle -->
+  <text class="sub" x="450" y="195" text-anchor="middle" style="animation-delay:1s">◈  CYBER KING ORIGINS  ◈</text>
+
+  <!-- Status bar -->
+  <circle class="dot" cx="330" cy="230" r="3"/>
+  <text font-family="'Courier New',monospace" font-size="11" fill="#00b4d8" x="340" y="234" letter-spacing="2">SYSTEM ONLINE</text>
+  <rect x="450" y="223" width="120" height="8" rx="4" fill="#00b4d815" stroke="#00b4d840" stroke-width="0.5"/>
+  <rect x="450" y="223" width="120" height="8" rx="4" fill="#00b4d8">
+    <animate attributeName="width" values="0;120;120" dur="3s" fill="freeze"/>
+  </rect>
+  <text font-family="'Courier New',monospace" font-size="10" fill="#00b4d8" x="578" y="232" letter-spacing="1"> 100%</text>
+
+  <!-- Bottom system text -->
+  <text font-family="'Courier New',monospace" font-size="9" fill="#00b4d850" x="450" y="265" text-anchor="middle" letter-spacing="3">PIXELSYNC PORTER v2.4.0  ·  VFX ENGINEER  ·  BLENDER GOD</text>
+
+  <!-- Cursor -->
+  <rect class="cursor" x="576" y="234" width="6" height="10" rx="1"/>
+</svg>

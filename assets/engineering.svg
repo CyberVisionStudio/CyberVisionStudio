@@ -1,0 +1,120 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg3 { fill:#000; }
+      .mc  { font-family:'Courier New',monospace; font-size:12px; fill:#00b4d8; }
+      .mf  { font-family:'Courier New',monospace; font-size:12px; fill:#00b4d840; }
+      .hdr3{ font-family:'Courier New',monospace; font-size:11px; fill:#00b4d8; letter-spacing:6px; }
+      .scan{ fill:none; stroke:#00b4d815; stroke-width:0.4; }
+
+      /* matrix column drops */
+      .col1  { animation: drop1 3.0s linear infinite; }
+      .col2  { animation: drop1 2.4s linear infinite 0.3s; }
+      .col3  { animation: drop1 3.5s linear infinite 0.7s; }
+      .col4  { animation: drop1 2.8s linear infinite 1.1s; }
+      .col5  { animation: drop1 3.2s linear infinite 0.5s; }
+      .col6  { animation: drop1 2.6s linear infinite 1.4s; }
+      .col7  { animation: drop1 3.8s linear infinite 0.2s; }
+      .col8  { animation: drop1 2.2s linear infinite 0.9s; }
+      .col9  { animation: drop1 3.1s linear infinite 1.7s; }
+      .col10 { animation: drop1 2.9s linear infinite 0.4s; }
+      .col11 { animation: drop1 3.6s linear infinite 1.2s; }
+      .col12 { animation: drop1 2.5s linear infinite 0.8s; }
+
+      @keyframes drop1 {
+        0%   { transform:translateY(-120px); opacity:1; }
+        80%  { opacity:0.8; }
+        100% { transform:translateY(120px); opacity:0; }
+      }
+
+      /* center text */
+      .center-lbl {
+        font-family:'Courier New',monospace;
+        font-size:13px;
+        fill:#fff;
+        letter-spacing:5px;
+      }
+      .center-accent { fill:#00b4d8; }
+
+      .blink-box {
+        fill:none; stroke:#00b4d8; stroke-width:1;
+        animation: blinkBorder 2s ease-in-out infinite;
+      }
+      @keyframes blinkBorder {
+        0%,100%{ stroke-opacity:0.2; }
+        50%    { stroke-opacity:0.9; }
+      }
+
+      /* bottom line sweep */
+      .bline {
+        stroke:#00b4d8; stroke-width:1;
+        animation: lsweep 5s ease-in-out infinite;
+      }
+      @keyframes lsweep {
+        0%  { x:0; width:0; opacity:0; }
+        20% { opacity:1; }
+        50% { x:0; width:900; }
+        80% { opacity:1; }
+        100%{ x:0; width:0; opacity:0; }
+      }
+    </style>
+    <pattern id="sp3" x="0" y="0" width="900" height="4" patternUnits="userSpaceOnUse">
+      <line class="scan" x1="0" y1="0" x2="900" y2="0"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="120" class="bg3"/>
+  <rect width="900" height="120" fill="url(#sp3)"/>
+
+  <!-- Matrix rain columns — left zone -->
+  <text class="mf col1"  x="15"  y="0">01</text>
+  <text class="mf col2"  x="30"  y="0">10</text>
+  <text class="mc col3"  x="45"  y="0">1</text>
+  <text class="mf col4"  x="60"  y="0">00</text>
+  <text class="mc col5"  x="75"  y="0">11</text>
+  <text class="mf col6"  x="90"  y="0">0</text>
+  <text class="mf col7"  x="105" y="0">10</text>
+  <text class="mc col8"  x="120" y="0">01</text>
+  <text class="mf col9"  x="135" y="0">1</text>
+  <text class="mf col10" x="150" y="0">00</text>
+  <text class="mc col11" x="165" y="0">11</text>
+  <text class="mf col12" x="180" y="0">0</text>
+
+  <!-- Matrix rain columns — right zone -->
+  <text class="mf col3"  x="720" y="0">01</text>
+  <text class="mc col1"  x="735" y="0">1</text>
+  <text class="mf col5"  x="750" y="0">10</text>
+  <text class="mc col2"  x="765" y="0">00</text>
+  <text class="mf col7"  x="780" y="0">1</text>
+  <text class="mc col4"  x="795" y="0">11</text>
+  <text class="mf col9"  x="810" y="0">0</text>
+  <text class="mc col6"  x="825" y="0">10</text>
+  <text class="mf col11" x="840" y="0">01</text>
+  <text class="mc col8"  x="855" y="0">1</text>
+  <text class="mf col10" x="870" y="0">00</text>
+  <text class="mc col12" x="885" y="0">11</text>
+
+  <!-- Center box -->
+  <rect x="200" y="20" width="500" height="80" class="blink-box" rx="2"/>
+  <rect x="210" y="28" width="480" height="64" fill="#00b4d808" rx="1"/>
+
+  <!-- Corner marks -->
+  <path d="M200 45 L200 20 L230 20" fill="none" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="square"/>
+  <path d="M700 45 L700 20 L670 20" fill="none" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="square"/>
+  <path d="M200 75 L200 100 L230 100" fill="none" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="square"/>
+  <path d="M700 75 L700 100 L670 100" fill="none" stroke="#00b4d8" stroke-width="1.5" stroke-linecap="square"/>
+
+  <text class="center-lbl" x="450" y="55" text-anchor="middle">
+    <tspan class="center-accent">◈ </tspan>ENGINEERING<tspan class="center-accent"> &amp; </tspan>CORE SYSTEMS<tspan class="center-accent"> ◈</tspan>
+  </text>
+  <text font-family="'Courier New',monospace" font-size="10" fill="#00b4d860" x="450" y="78" text-anchor="middle" letter-spacing="4">
+    PYTHON  ·  C++  ·  C#  ·  LINUX  ·  BASH  ·  GIT
+  </text>
+
+  <!-- animated bottom sweep line -->
+  <rect class="bline" x="0" y="115" height="1">
+    <animate attributeName="x" values="0;0" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="0;900;0" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>
