@@ -27,22 +27,15 @@
 <!--           SYSTEM MANIFEST TERMINAL                  -->
 <!-- ════════════════════════════════════════════════════ -->
 
+---
+
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  > SYSTEM.LOG — CLASSIFIED                                   ║
-║                                                              ║
-║  "Code is the structure. Pixels are the soul.               ║
-║   I architect the bridge between them."                      ║
-║                                                              ║
-║  ● MISSION   │ PixelSync Porter — Active on Blender Ext.    ║
-║  ● ROLE      │ Pipeline Engineer & VFX Architect            ║
-║  ● STATUS    │ ALL SYSTEMS OPERATIONAL ██████████ 100%      ║
-╚══════════════════════════════════════════════════════════════╝
-```
+![Terminal](./assets/terminal.svg)
 
 </div>
+
+---
 
 ---
 
