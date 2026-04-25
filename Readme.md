@@ -1,349 +1,173 @@
 <div align="center">
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                    HERO HEADER                        -->
-<!-- ══════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:001a2e,100:00b4d8&height=280&section=header&text=THE%20PIXEL%20TAMER&fontSize=72&animation=twinkling&fontAlignY=40&desc=◈%20CYBER%20KING%20ORIGINS%20◈&descAlignY=65&descSize=18&fontColor=ffffff&stroke=00b4d8&strokeWidth=2&fontStyle=bold" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:000d1a,100:003049&height=300&section=header&text=THE%20PIXEL%20TAMER&fontSize=78&animation=twinkling&fontAlignY=42&desc=%E2%97%88%20CYBER%20KING%20ORIGINS%20%E2%97%88&descAlignY=65&descSize=16&fontColor=00b4d8&stroke=00b4d8&strokeWidth=1" />
 
 <br>
 
-<!-- Animated Typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=2000&pause=600&color=00B4D8&center=true&vCenter=true&width=700&lines=◈+INITIATING+CYBER+KING+PROTOCOL...;◈+PIXELSYNC+PORTER+v2.4.0+—+ONLINE;◈+BLENDER+PIPELINE+GOD+MODE+ACTIVE;◈+VFX+SYSTEMS+FULLY+OPERATIONAL;◈+CODE+IS+STRUCTURE.+PIXELS+ARE+SOUL." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=16&duration=2200&pause=700&color=00B4D8&center=true&vCenter=true&width=680&lines=%E2%97%88+INITIATING+CYBER+KING+PROTOCOL...;%E2%97%88+PIXELSYNC+PORTER+v2.4.0+%E2%80%94+ACTIVE;%E2%97%88+BLENDER+PIPELINE+GOD+MODE+ON;%E2%97%88+VFX+SYSTEMS+FULLY+OPERATIONAL;%E2%97%88+CODE+IS+STRUCTURE.+PIXELS+ARE+SOUL." />
 
 <br><br>
 
-<!-- Status Badges -->
-<img src="https://img.shields.io/badge/STATUS-ONLINE-00b4d8?style=for-the-badge&logo=statuspage&logoColor=white&labelColor=000000" />
-<img src="https://img.shields.io/badge/MISSION-PIXELSYNC_PORTER-00b4d8?style=for-the-badge&logo=blender&logoColor=white&labelColor=000000" />
-<img src="https://img.shields.io/badge/RANK-CYBER_KING-ffffff?style=for-the-badge&logo=crown&logoColor=black&labelColor=00b4d8" />
+![Status](https://img.shields.io/badge/STATUS-ONLINE-00b4d8?style=for-the-badge&labelColor=000000)
+![Mission](https://img.shields.io/badge/MISSION-PIXELSYNC_PORTER-00b4d8?style=for-the-badge&logo=blender&logoColor=00b4d8&labelColor=000000)
+![Rank](https://img.shields.io/badge/RANK-CYBER_KING-000000?style=for-the-badge&labelColor=00b4d8)
 
 <br><br>
 
-<!-- Social Links -->
-<a href="https://extensions.blender.org/approval-queue/pixelsync-porter/">
-  <img src="https://img.shields.io/badge/⬡_BLENDER_EXTENSIONS-000000?style=for-the-badge&logo=blender&logoColor=00b4d8&color=000000" />
-</a>
-&nbsp;
-<a href="https://discord.com/users/1323643345087762442">
-  <img src="https://img.shields.io/badge/⬡_DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" />
-</a>
-&nbsp;
-<a href="https://github.com/CyberVisionStudio">
-  <img src="https://img.shields.io/badge/⬡_GITHUB-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=00b4d8" />
-</a>
+[![Blender Extensions](https://img.shields.io/badge/BLENDER_EXTENSIONS-000000?style=for-the-badge&logo=blender&logoColor=00b4d8)](https://extensions.blender.org/approval-queue/pixelsync-porter/)
+[![Discord](https://img.shields.io/badge/DISCORD-000000?style=for-the-badge&logo=discord&logoColor=5865F2)](https://discord.com/users/1323643345087762442)
+[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/CyberVisionStudio)
 
 </div>
 
-<br>
+---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                  SYSTEM MANIFEST                      -->
-<!-- ══════════════════════════════════════════════════════ -->
+<div align="center">
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  > SYSTEM.LOG — CLASSIFIED                              │
-│                                                         │
-│  "Code is the structure. Pixels are the soul.          │
-│   I architect the bridge between them."                 │
-│                                                         │
-│  ● MISSION    : PixelSync Porter — Active               │
-│  ● SPECIALTY  : Blender Pipeline Automation             │
-│  ● STATUS     : ALL SYSTEMS OPERATIONAL ████████░░ 90%  │
-└─────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════╗
+║  > SYSTEM.LOG — CLASSIFIED                                   ║
+║                                                              ║
+║  "Code is the structure. Pixels are the soul.               ║
+║   I architect the bridge between them."                      ║
+║                                                              ║
+║  ● MISSION   │ PixelSync Porter — Active on Blender Ext.    ║
+║  ● ROLE      │ Pipeline Engineer & VFX Architect            ║
+║  ● STATUS    │ ALL SYSTEMS OPERATIONAL ██████████ 100%      ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
-<br>
+</div>
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                  3D ARMORY                            -->
-<!-- ══════════════════════════════════════════════════════ -->
+---
+
+## 🪐 3D Architecture & Dynamics
 
 <div align="center">
 
-## ◈ THE SPECIALIZED ARMORY ◈
-
-### 🪐 3D Architecture & Dynamics
+| TOOL | MASTERY | SPECIALIZATION |
+|:---:|:---:|:---:|
+| ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white) | `████████████ 99%` | Pipeline Automation |
+| ![Houdini](https://img.shields.io/badge/Houdini-FF4713?style=flat-square&logoColor=white) | `██████████░░ 84%` | Procedural Destruction |
+| ![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-313131?style=flat-square&logo=unrealengine&logoColor=white) | `██████████░░ 87%` | Virtual Production |
+| ![Gaea](https://img.shields.io/badge/Gaea-1b4332?style=flat-square&logoColor=white) | `█████████░░░ 80%` | Terramorphing |
+| ![Maya](https://img.shields.io/badge/Maya-0696D7?style=flat-square&logoColor=white) | `██████████░░ 85%` | Technical Rigging |
+| ![ZBrush](https://img.shields.io/badge/ZBrush-8B0000?style=flat-square&logoColor=white) | `██████████░░ 88%` | Organic Sculpting |
 
 </div>
 
-<table align="center">
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/BLENDER-E87D0D?style=flat-square&logo=blender&logoColor=white" /><br>
-<strong>Pipeline Automation</strong><br>
-<sub>████████████ 99%</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/HOUDINI-FF4713?style=flat-square&logo=houdini&logoColor=white" /><br>
-<strong>Procedural Destruction</strong><br>
-<sub>██████████░░ 84%</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/UNREAL_ENGINE-313131?style=flat-square&logo=unrealengine&logoColor=white" /><br>
-<strong>Virtual Production</strong><br>
-<sub>██████████░░ 87%</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/GAEA-1e6b2c?style=flat-square&logo=terrain&logoColor=white" /><br>
-<strong>Terramorphing</strong><br>
-<sub>█████████░░░ 80%</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/MAYA-0696D7?style=flat-square&logo=autodeskmaya&logoColor=white" /><br>
-<strong>Technical Rigging</strong><br>
-<sub>██████████░░ 85%</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="20%">
-<img src="https://img.shields.io/badge/ZBRUSH-8B0000?style=flat-square&logo=pixologic&logoColor=white" /><br>
-<strong>Organic Sculpting</strong><br>
-<sub>██████████░░ 88%</sub>
-</td>
-<td colspan="4" align="center">
-<br>
-<img src="https://img.shields.io/badge/▶_3D_ARCHITECTURE_SYSTEMS_LOADED-00b4d8?style=flat-square&labelColor=000000" />
-</td>
-</tr>
-</table>
+---
 
-<br>
+## 🎥 Visual Intelligence & Compositing
 
 <div align="center">
 
-### 🎥 Visual Intelligence & Tracking
+| TOOL | MASTERY | SPECIALIZATION |
+|:---:|:---:|:---:|
+| ![Nuke](https://img.shields.io/badge/Nuke_16-000000?style=flat-square&logoColor=yellow) | `████████████ 92%` | Deep Compositing |
+| ![SynthEyes](https://img.shields.io/badge/SynthEyes-1a1a2e?style=flat-square&logoColor=white) | `█████████░░░ 82%` | Precision Solving |
+| ![3DEqualizer](https://img.shields.io/badge/3DEqualizer-2d2d2d?style=flat-square&logoColor=white) | `█████████░░░ 80%` | Matchmoving |
+| ![Substance](https://img.shields.io/badge/Substance_3D-FF4E00?style=flat-square&logo=adobesubstance3d&logoColor=white) | `██████████░░ 86%` | PBR Alchemy |
+| ![Marmoset](https://img.shields.io/badge/Marmoset_Toolbag-111111?style=flat-square&logoColor=white) | `█████████░░░ 83%` | Lighting & Look-Dev |
+| ![Cascadeur](https://img.shields.io/badge/Cascadeur-0050aa?style=flat-square&logoColor=white) | `████████░░░░ 75%` | Physics Animation |
 
 </div>
 
-<table align="center">
-<tr>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/NUKE_16-000000?style=flat-square&logo=foundry&logoColor=yellow" /><br>
-<strong>Deep Compositing</strong>
-</td>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/SYNTHEYES-1a1a2e?style=flat-square&logoColor=white" /><br>
-<strong>Precision Solving</strong>
-</td>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/3DEQUALIZER-2d2d2d?style=flat-square&logoColor=white" /><br>
-<strong>Matchmoving</strong>
-</td>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/SUBSTANCE-FF4E00?style=flat-square&logo=adobesubstance3d&logoColor=white" /><br>
-<strong>PBR Alchemy</strong>
-</td>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/MARMOSET-111111?style=flat-square&logoColor=white" /><br>
-<strong>Look-Dev & Lighting</strong>
-</td>
-<td align="center" width="16%">
-<img src="https://img.shields.io/badge/CASCADEUR-0050aa?style=flat-square&logoColor=white" /><br>
-<strong>Physics Animation</strong>
-</td>
-</tr>
-</table>
+---
 
-<br>
-
-<!-- ══════════════════════════════════════════════════════ -->
-<!--               ENGINEERING CORE                        -->
-<!-- ══════════════════════════════════════════════════════ -->
+## 💻 Engineering & Core Systems
 
 <div align="center">
-
-## ◈ ENGINEERING & CORE SYSTEMS ◈
 
 <img src="https://skillicons.dev/icons?i=py,cpp,cs,linux,bash,git,github,vscode,pycharm&theme=dark&perline=9" />
 
 <br><br>
 
-<!-- Language Mastery Bars -->
-
-| LANGUAGE | MASTERY | DOMAIN |
+| LANGUAGE | MASTERY | PRIMARY DOMAIN |
 |:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | `████████████ 95%` | Pipeline · Automation · Tools |
-| ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | `█████████░░░ 78%` | Performance · Plugins · Systems |
-| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) | `████████░░░░ 70%` | Game Logic · Unity Integration |
-| ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | `██████████░░ 88%` | Automation · DevOps · Linux |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | `████████████ 95%` | Automation · Pipeline · Tools |
+| ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | `█████████░░░ 78%` | Performance · Plugins |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) | `████████░░░░ 70%` | Game Logic · Scripting |
+| ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | `██████████░░ 88%` | Linux · Automation · DevOps |
 
 </div>
 
-<br>
+---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                 GITHUB STATS                          -->
-<!-- ══════════════════════════════════════════════════════ -->
+## 📊 Neural Interface Statistics
 
 <div align="center">
 
-## ◈ NEURAL INTERFACE STATISTICS ◈
-
-<a href="https://github.com/CyberVisionStudio">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=transparent&hide_border=true&title_color=00b4d8&text_color=ffffff&icon_color=00b4d8&bg_color=00000000&rank_icon=github&include_all_commits=true&count_private=true" />
-</a>
-<a href="https://github.com/CyberVisionStudio">
-  <img height="165px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberVisionStudio&layout=compact&theme=transparent&hide_border=true&title_color=00b4d8&text_color=ffffff&bg_color=00000000&langs_count=8" />
-</a>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=CyberVisionStudio&show_icons=true&theme=transparent&hide_border=true&title_color=00b4d8&text_color=ffffff&icon_color=00b4d8&bg_color=00000000&include_all_commits=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CyberVisionStudio&layout=compact&theme=transparent&hide_border=true&title_color=00b4d8&text_color=ffffff&bg_color=00000000&langs_count=8" />
 
 <br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=CyberVisionStudio&theme=transparent&hide_border=true&stroke=00b4d8&ring=00b4d8&fire=ffffff&currStreakLabel=00b4d8&sideNums=ffffff&dates=888888&sideLabels=00b4d8" />
-
-<br><br>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=CyberVisionStudio&bg_color=000000&color=00b4d8&line=00b4d8&point=ffffff&area=true&hide_border=true&area_color=00b4d8" />
+<img src="https://streak-stats.demolab.com?user=CyberVisionStudio&theme=transparent&hide_border=true&stroke=00b4d8&ring=00b4d8&fire=ffffff&currStreakLabel=00b4d8&sideNums=ffffff&dates=888888&sideLabels=00b4d8" />
 
 <br>
 
-<!-- Trophies -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=CyberVisionStudio&bg_color=000000&color=00b4d8&line=00b4d8&point=ffffff&area=true&hide_border=true&area_color=003049" />
+
+<br>
+
 <img src="https://github-profile-trophy.vercel.app/?username=CyberVisionStudio&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7" />
 
 </div>
 
-<br>
+---
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--               PIXELSYNC PROJECT                       -->
-<!-- ══════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ FEATURED MISSION: PIXELSYNC PORTER ◈
-
-</div>
+## ◈ Featured Mission — PixelSync Porter
 
 ```python
+# PixelSync Porter v2.4.0
+# ─────────────────────────────────────────────────────────
+# A Blender Extension for seamless asset migration
+# across pipelines, studios, and production dimensions.
+# ─────────────────────────────────────────────────────────
+
 class PixelSyncPorter:
-    """
-    ┌──────────────────────────────────────────────────────┐
-    │  PIXELSYNC PORTER v2.4.0                             │
-    │  ─────────────────────────────────────────────────── │
-    │  A Blender Extension for seamless asset migration    │
-    │  across pipelines, studios, and dimensions.          │
-    │                                                      │
-    │  ● Auto-syncs texture/material libraries             │
-    │  ● Cross-version Blender compatibility               │
-    │  ● One-click pipeline integration                    │
-    │  ● Zero-loss asset porting between projects          │
-    └──────────────────────────────────────────────────────┘
-    """
-    status     = "ACTIVE ✦"
-    version    = "2.4.0"
-    platform   = "Blender Extensions"
-    author     = "THE PIXEL TAMER"
+    name     = "PixelSync Porter"
+    version  = "2.4.0"
+    status   = "ACTIVE"
+    platform = "Blender Extensions"
+    author   = "THE PIXEL TAMER"
+
+    features = [
+        "Auto-syncs texture and material libraries",
+        "Cross-version Blender compatibility",
+        "One-click pipeline integration",
+        "Zero-loss asset porting between projects",
+    ]
 ```
 
 <div align="center">
-<a href="https://extensions.blender.org/approval-queue/pixelsync-porter/">
-  <img src="https://img.shields.io/badge/⬡_DEPLOY_PIXELSYNC_PORTER-000000?style=for-the-badge&logo=blender&logoColor=00b4d8&color=000000" />
-</a>
-</div>
 
-<br>
-
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                  PHILOSOPHY                           -->
-<!-- ══════════════════════════════════════════════════════ -->
-
-<div align="center">
-
-## ◈ KERNEL PHILOSOPHY ◈
-
-<table>
-<tr>
-<td align="center">
-
-```
-╔══════════════════════════════════════════════════╗
-║                                                  ║
-║   "Code is the brush — Pixels are the canvas.   ║
-║    Every frame is a battlefield.                 ║
-║    Every render, a victory."                     ║
-║                                                  ║
-║                  — THE PIXEL TAMER               ║
-║                    CYBER KING                    ║
-║                                                  ║
-╚══════════════════════════════════════════════════╝
-```
-
-</td>
-</tr>
-</table>
+[![Deploy PixelSync Porter](https://img.shields.io/badge/%E2%AC%A1_DEPLOY_PIXELSYNC_PORTER-000000?style=for-the-badge&logo=blender&logoColor=00b4d8)](https://extensions.blender.org/approval-queue/pixelsync-porter/)
 
 </div>
 
-<br>
-
-<!-- ══════════════════════════════════════════════════════ -->
-<!--              ANIMATED PROFILE VIEWS                   -->
-<!-- ══════════════════════════════════════════════════════ -->
+---
 
 <div align="center">
+
+```
+╔══════════════════════════════════════════════╗
+║                                              ║
+║  "Code is the brush. Pixels are the canvas. ║
+║   Every frame is a battlefield.              ║
+║   Every render — a victory."                 ║
+║                                              ║
+║            — THE PIXEL TAMER                 ║
+║              ◈ CYBER KING ◈                  ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+```
 
 ![Profile Views](https://komarev.com/ghpvc/?username=CyberVisionStudio&color=00b4d8&style=for-the-badge&label=PROFILE+SCANS)
-&nbsp;
-![Followers](https://img.shields.io/github/followers/CyberVisionStudio?color=00b4d8&style=for-the-badge&logo=github&label=FOLLOWERS&labelColor=000000)
-
-<br><br>
-
-<!-- Snake Animation — requires GitHub Actions setup (see note below) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CyberVisionStudio/CyberVisionStudio/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CyberVisionStudio/CyberVisionStudio/output/github-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/CyberVisionStudio/CyberVisionStudio/output/github-snake-dark.svg" />
-</picture>
-
-</div>
 
 <br>
 
-<!-- ══════════════════════════════════════════════════════ -->
-<!--                    FOOTER                             -->
-<!-- ══════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:001a2e&height=2&section=footer" />
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a2e,100:00b4d8&height=120&section=footer&text=PIXEL%20TAMER%20SYSTEM%20v3.0&fontSize=20&fontAlignY=70&fontColor=00b4d8&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:000d1a,100:003049&height=120&section=footer&text=%E2%97%88%20PIXEL%20TAMER%20%E2%80%94%20SYSTEM%20v3.0%20%E2%97%88&fontSize=16&fontColor=00b4d8&fontAlignY=70&animation=fadeIn" />
 
 </div>
-
-<!-- 
-════════════════════════════════════════
-  SETUP NOTE — GITHUB SNAKE ANIMATION
-════════════════════════════════════════
-To enable the contribution snake animation:
-
-1. Create folder: .github/workflows/
-2. Create file: snake.yml with this content:
-
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: CyberVisionStudio
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-════════════════════════════════════════
--->
