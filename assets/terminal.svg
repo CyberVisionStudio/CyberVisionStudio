@@ -1,0 +1,278 @@
+<svg width="860" height="260" viewBox="0 0 860 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @font-face { font-family: 'mono'; src: local('Courier New'); }
+
+      /* ── scanline pattern ── */
+      .scan { fill:none; stroke:#00b4d812; stroke-width:0.5; }
+
+      /* ── main font ── */
+      .t  { font-family:'Courier New',Courier,monospace; font-size:13px; fill:#c9d1d9; }
+      .th { font-family:'Courier New',Courier,monospace; font-size:13px; fill:#ffffff; font-weight:bold; }
+      .tc { font-family:'Courier New',Courier,monospace; font-size:13px; fill:#00b4d8; }
+      .tg { font-family:'Courier New',Courier,monospace; font-size:13px; fill:#3fb950; }
+      .td { font-family:'Courier New',Courier,monospace; font-size:13px; fill:#8b949e; }
+
+      /* ── outer border glow pulse ── */
+      .outer-border {
+        fill: none;
+        stroke: #30363d;
+        stroke-width: 1;
+        animation: outerPulse 4s ease-in-out infinite;
+      }
+      @keyframes outerPulse {
+        0%,100% { stroke:#30363d; stroke-opacity:1; }
+        50%     { stroke:#00b4d8; stroke-opacity:0.35; }
+      }
+
+      /* ── inner dashed border ── */
+      .inner-border {
+        fill: none;
+        stroke: #30363d;
+        stroke-width: 1;
+        stroke-dasharray: 5 6;
+        animation: dashRotate 12s linear infinite;
+      }
+      @keyframes dashRotate {
+        to { stroke-dashoffset: -200; }
+      }
+
+      /* ── corner brackets glow ── */
+      .corner {
+        fill: none;
+        stroke: #00b4d8;
+        stroke-width: 1.5;
+        stroke-linecap: square;
+        animation: cornerGlow 3s ease-in-out infinite;
+      }
+      @keyframes cornerGlow {
+        0%,100% { stroke-opacity: 0.4; }
+        50%     { stroke-opacity: 1;
+                  filter: drop-shadow(0 0 4px #00b4d8); }
+      }
+
+      /* ── vertical side tick marks ── */
+      .tick {
+        stroke: #30363d;
+        stroke-width: 1;
+        animation: tickFade 2s ease-in-out infinite alternate;
+      }
+      @keyframes tickFade {
+        from { stroke-opacity:0.3; }
+        to   { stroke-opacity:0.8; }
+      }
+
+      /* ── header line prompt ── */
+      .prompt { fill:#00b4d8; font-family:'Courier New',monospace; font-size:12px; letter-spacing:1px; }
+      .prompt-line {
+        stroke:#30363d;
+        stroke-width:1;
+        animation: lineFade 3s ease-in-out infinite;
+      }
+      @keyframes lineFade {
+        0%,100%{ stroke-opacity:0.4; }
+        50%    { stroke-opacity:0.9; }
+      }
+
+      /* ── bullet dot pulse ── */
+      .bullet {
+        fill:#00b4d8;
+        animation: bulletPulse 2.5s ease-in-out infinite;
+      }
+      .bullet2 { animation-delay: 0.5s; }
+      .bullet3 { animation-delay: 1s; }
+      @keyframes bulletPulse {
+        0%,100%{ r:3; opacity:0.7; }
+        50%    { r:4.5; opacity:1; }
+      }
+
+      /* ── progress bar fill animation ── */
+      .bar-bg   { fill:#21262d; rx:2; }
+      .bar-fill {
+        fill: #00b4d8;
+        animation: barLoad 2.5s cubic-bezier(.4,0,.2,1) forwards;
+      }
+      @keyframes barLoad {
+        from { width: 0; }
+        to   { width: 132px; }
+      }
+      /* shimmer over bar */
+      .bar-shimmer {
+        fill: url(#shimmerGrad);
+        animation: shimmerMove 2s linear 2.5s infinite;
+        opacity: 0;
+      }
+      @keyframes shimmerMove {
+        0%   { transform:translateX(-40px); opacity:0.6; }
+        100% { transform:translateX(180px); opacity:0; }
+      }
+
+      /* ── typing cursor ── */
+      .cursor {
+        fill: #c9d1d9;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%,100%{ opacity:1; }
+        50%    { opacity:0; }
+      }
+
+      /* ── sweep line (CRT effect) ── */
+      .sweep {
+        fill: none;
+        stroke: #00b4d8;
+        stroke-width: 1;
+        opacity: 0;
+        animation: sweep 6s linear infinite;
+      }
+      @keyframes sweep {
+        0%   { transform:translateY(0);   opacity:0; }
+        5%   { opacity:0.15; }
+        95%  { opacity:0.08; }
+        100% { transform:translateY(260px); opacity:0; }
+      }
+
+      /* ── glitch flicker on header ── */
+      .glitch {
+        animation: glitch 8s infinite;
+      }
+      @keyframes glitch {
+        0%,94%,100%  { opacity:1; transform:translate(0,0); }
+        95%          { opacity:0.8; transform:translate(-2px,0); }
+        96%          { opacity:1;   transform:translate(2px,0); fill:#00ffff; }
+        97%          { opacity:0.9; transform:translate(0,0); fill:#fff; }
+        98%          { opacity:1;   transform:translate(-1px,0); }
+        99%          { opacity:1;   transform:translate(0,0); }
+      }
+
+      /* ── status text "ALL SYSTEMS OPERATIONAL" typewriter ── */
+      .status-text {
+        font-family:'Courier New',monospace;
+        font-size:13px;
+        fill:#00b4d8;
+        animation: typewriterReveal 3s steps(26,end) 0.5s forwards;
+        clip-path: inset(0 100% 0 0);
+      }
+      @keyframes typewriterReveal {
+        to { clip-path: inset(0 0% 0 0); }
+      }
+    </style>
+
+    <!-- scanline pattern -->
+    <pattern id="scanPat" x="0" y="0" width="860" height="4" patternUnits="userSpaceOnUse">
+      <line class="scan" x1="0" y1="0" x2="860" y2="0"/>
+    </pattern>
+
+    <!-- shimmer gradient -->
+    <linearGradient id="shimmerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#fff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ══ BACKGROUND ══ -->
+  <rect width="860" height="260" fill="#0d1117" rx="6"/>
+  <!-- subtle inner vignette -->
+  <rect width="860" height="260" fill="url(#scanPat)" rx="6"/>
+
+  <!-- ══ CRT SWEEP LINE ══ -->
+  <line class="sweep" x1="0" y1="0" x2="860" y2="0"/>
+
+  <!-- ══ OUTER BORDER (glow pulse) ══ -->
+  <rect x="1" y="1" width="858" height="258" class="outer-border" rx="5"/>
+
+  <!-- ══ TERMINAL BOX ══ -->
+  <!-- box background -->
+  <rect x="100" y="28" width="660" height="204" fill="#161b22" rx="3"/>
+  <!-- box outer border dashed animated -->
+  <rect x="100" y="28" width="660" height="204" class="inner-border" rx="3"/>
+
+  <!-- ══ CORNER BRACKETS (4 corners of box) ══ -->
+  <!-- top-left -->
+  <path d="M100 65 L100 28 L145 28" class="corner"/>
+  <!-- top-right -->
+  <path d="M760 65 L760 28 L715 28" class="corner" style="animation-delay:0.5s"/>
+  <!-- bottom-left -->
+  <path d="M100 195 L100 232 L145 232" class="corner" style="animation-delay:1s"/>
+  <!-- bottom-right -->
+  <path d="M760 195 L760 232 L715 232" class="corner" style="animation-delay:1.5s"/>
+
+  <!-- ══ SIDE TICK MARKS ══ -->
+  <!-- left side ticks -->
+  <line class="tick" x1="100" y1="90"  x2="108" y2="90"  style="animation-delay:0s"/>
+  <line class="tick" x1="100" y1="130" x2="108" y2="130" style="animation-delay:0.4s"/>
+  <line class="tick" x1="100" y1="170" x2="108" y2="170" style="animation-delay:0.8s"/>
+  <!-- right side ticks -->
+  <line class="tick" x1="760" y1="90"  x2="752" y2="90"  style="animation-delay:0.2s"/>
+  <line class="tick" x1="760" y1="130" x2="752" y2="130" style="animation-delay:0.6s"/>
+  <line class="tick" x1="760" y1="170" x2="752" y2="170" style="animation-delay:1s"/>
+
+  <!-- ══ HEADER LINE ══ -->
+  <!-- prompt text -->
+  <text class="prompt glitch" x="122" y="54" filter="url(#softGlow)">&gt; SYSTEM.LOG — CLASSIFIED</text>
+  <!-- divider line -->
+  <line class="prompt-line" x1="118" y1="63" x2="742" y2="63"/>
+
+  <!-- ══ LEFT ACCENT BAR ══ -->
+  <rect x="118" y="74" width="2" height="135" fill="#30363d" rx="1"/>
+  <!-- animated bar fill -->
+  <rect x="118" y="74" width="2" height="0" fill="#00b4d8" rx="1">
+    <animate attributeName="height" from="0" to="135" dur="2s" fill="freeze"/>
+  </rect>
+
+  <!-- ══ QUOTE LINES ══ -->
+  <text class="t" x="132" y="90">"Code is the structure. Pixels are the soul.</text>
+  <text class="t" x="132" y="110"> I architect the bridge between them."</text>
+
+  <!-- ══ SEPARATOR ══ -->
+  <line x1="118" y1="122" x2="742" y2="122" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ══ ROW 1: MISSION ══ -->
+  <!-- bullet -->
+  <circle class="bullet"  cx="132" cy="141" r="3"/>
+  <text class="th" x="147" y="146">MISSION</text>
+  <!-- vertical divider -->
+  <line x1="218" y1="133" x2="218" y2="153" stroke="#30363d" stroke-width="1"/>
+  <text class="t" x="228" y="146">PixelSync Porter — Active on Blender Ext.</text>
+
+  <!-- ══ ROW 2: ROLE ══ -->
+  <circle class="bullet bullet2" cx="132" cy="168" r="3"/>
+  <text class="th" x="147" y="173">ROLE</text>
+  <line x1="218" y1="160" x2="218" y2="180" stroke="#30363d" stroke-width="1"/>
+  <text class="t" x="228" y="173">Pipeline Engineer &amp; VFX Architect</text>
+
+  <!-- ══ ROW 3: STATUS ══ -->
+  <circle class="bullet bullet3" cx="132" cy="195" r="3"/>
+  <text class="th" x="147" y="200">STATUS</text>
+  <line x1="218" y1="187" x2="218" y2="207" stroke="#30363d" stroke-width="1"/>
+
+  <!-- "ALL SYSTEMS OPERATIONAL" with typewriter feel -->
+  <text class="tc" x="228" y="200">ALL SYSTEMS OPERATIONAL</text>
+
+  <!-- Progress bar bg -->
+  <rect x="448" y="191" width="136" height="11" fill="#21262d" rx="2"/>
+  <!-- Progress bar fill animated -->
+  <rect x="449" y="192" width="0" height="9" fill="#00b4d8" rx="1.5">
+    <animate attributeName="width" from="0" to="134" dur="2.5s" fill="freeze"/>
+  </rect>
+  <!-- shimmer over bar -->
+  <rect x="449" y="192" width="30" height="9" rx="1.5" class="bar-shimmer"/>
+
+  <!-- 100% label -->
+  <text class="tc" x="594" y="200" font-family="'Courier New',monospace" font-size="13px"> 100%</text>
+
+  <!-- cursor after 100% -->
+  <rect class="cursor" x="634" y="190" width="7" height="12" rx="1"/>
+
+</svg>
