@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--          ANIMATED HERO — glitch + particles        -->
+<!--          ANIMATED HERO — glitch + particles        -->
 <!-- ════════════════════════════════════════════════════ -->
 
 ![Hero](./assets/hero.svg)
@@ -24,7 +24,7 @@
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--           SYSTEM MANIFEST TERMINAL                  -->
+<!--           SYSTEM MANIFEST TERMINAL                  -->
 <!-- ════════════════════════════════════════════════════ -->
 
 ---
@@ -40,7 +40,7 @@
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--     ANIMATED SKILLS — rotating rings + bars        -->
+<!--     ANIMATED SKILLS — rotating rings + bars        -->
 <!-- ════════════════════════════════════════════════════ -->
 
 ![Skills](./assets/skills.svg)
@@ -48,7 +48,7 @@
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--         ENGINEERING MATRIX BANNER                   -->
+<!--         ENGINEERING MATRIX BANNER                   -->
 <!-- ════════════════════════════════════════════════════ -->
 
 ![Engineering](./assets/engineering.svg)
@@ -62,7 +62,7 @@
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--              GITHUB STATS                           -->
+<!--              GITHUB STATS                           -->
 <!-- ════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -89,7 +89,7 @@
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--           FEATURED PROJECT — PIXELSYNC             -->
+<!--           FEATURED PROJECT — PIXELSYNC             -->
 <!-- ════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -105,18 +105,18 @@
 # ─────────────────────────────────────────────────────────
 
 class PixelSyncPorter:
-    name     = "PixelSync Porter"
-    version  = "2.4.0"
-    status   = "ACTIVE"
-    platform = "Blender Extensions"
-    author   = "THE PIXEL TAMER"
+    name     = "PixelSync Porter"
+    version  = "2.4.0"
+    status   = "ACTIVE"
+    platform = "Blender Extensions"
+    author   = "THE PIXEL TAMER"
 
-    features = [
-        "Auto-syncs texture and material libraries",
-        "Cross-version Blender compatibility",
-        "One-click pipeline integration",
-        "Zero-loss asset porting between projects",
-    ]
+    features = [
+        "Auto-syncs texture and material libraries",
+        "Cross-version Blender compatibility",
+        "One-click pipeline integration",
+        "Zero-loss asset porting between projects",
+    ]
 ```
 
 <div align="center">
@@ -128,12 +128,18 @@ class PixelSyncPorter:
 ---
 
 <!-- ════════════════════════════════════════════════════ -->
-<!--          ANIMATED QUOTE with orbiting rings        -->
+<!--          ANIMATED QUOTE with orbiting rings        -->
 <!-- ════════════════════════════════════════════════════ -->
 
 ![Quote](./assets/quote.svg)
 
 ---
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=CyberVisionStudio&color=00b4d8&style=for-the-badge&label=SYSTEM+ACCESS" />
+
+![Profile Views](https://komarev.com/ghpvc/?username=CyberVisionStudio&color=00b4d8&style=for-the-badge&label=PROFILE+SCANS)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:000d1a,100:003049&height=100&section=footer&text=%E2%97%88%20PIXEL%20TAMER%20v3.0%20%E2%97%88&fontSize=14&fontColor=00b4d8&fontAlignY=70&animation=fadeIn" />
+
 </div>
+ 
